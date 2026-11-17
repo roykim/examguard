@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 가 실제 테마를 담당. 앱 시작 시 스플래시/시스템바 기본값만 제공. -->
+    <style name="Theme.ExamGuard" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0A1F3C</item>
+        <item name="android:navigationBarColor">#0A1F3C</item>
+        <item name="android:windowBackground">#0A1F3C</item>
+    </style>
+</resources>

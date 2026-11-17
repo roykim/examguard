@@ -1,0 +1,25 @@
+# ===== 빌드 산출물 / 배포 APK (저장소에 넣지 않음) =====
+*.apk
+*.apk.zip
+*.zip
+*.aab
+android/app/build/
+android/build/
+android/.gradle/
+android/captures/
+
+# ===== OMC 운영 상태 (내부 툴링 산출물, 공개 금지) =====
+.omc/
+
+# ===== 민감 파일 (절대 커밋 금지) =====
+**/keystore.properties
+**/local.properties
+*.jks
+*.keystore
+
+# ===== IDE / OS =====
+.idea/
+*.iml
+.DS_Store
+.externalNativeBuild
+.cxx
